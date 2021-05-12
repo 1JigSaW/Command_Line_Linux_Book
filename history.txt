@@ -1,0 +1,191 @@
+    1  sudo apt install virtualbox-guest-dkms virtualbox-guest-x11
+    2  xrandr 1440x900
+    3  xrandr -s 1440x900
+    4  sudo su
+    5  catkin_make
+    6  sudo apt install catkin
+    7  sudo dpkg --configure -a
+    8  sudo apt-get clean
+    9  sudo apt-get update
+   10  sudo apt install catkin
+   11  sudo rm /var/lib/apt/lists/lock
+   12  sudo apt install catkin
+   13  sudo apt-get install -f
+   14  cd ~/catkin_ws/src
+   15  mkdir -p ~/catkin_ws/src
+   16  cd ~/catkin_ws/src
+   17  catkin_init_workspace
+   18  echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+   19  source ~/.bashrc
+   20  source /opt/ros/kinetic/setup.bash
+   21  echo "source /opt/ros/kinetic/setup.zsh" >> ~/.zshrc
+   22  source ~/.zshrc
+   23  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+   24  nano/etc/apt/sources.list
+   25  nano /etc/apt/sources.list
+   26  sudo su
+   27  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
+   28  wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+   29  udo apt-get install python-catkin-tools
+   30  sudo apt-get install python-catkin-tools
+   31  sudo apt install python-pip
+   32  sudo apt install python3-pip
+   33  sudo pip3 install -U catkin_tools
+   34  mkdir -p ~/catkin_ws/src
+   35  cd ~/catkin_ws/src
+   36  catkin_init_workspace
+   37  cd ~/catkin_ws/
+   38  catkin_make
+   39  sudo apt-get install -y catkin
+   40  cd ~/catkin_ws/
+   41  cd ~/catkin_ws/src
+   42  catkin_init_workspace
+   43  sudo apt-get install ros-indigo-desktop-full
+   44  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   45  sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+   46  curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
+   47  sudo apt-get update
+   48  sudo apt-get install ros-kinetic-desktop-full
+   49  sudo apt-get install ros-kinetic-desktop
+   50  sudo apt-get install ros-kinetic-ros-base
+   51  apt-cache search ros-kinetic
+   52  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   53  source ~/.bashrc
+   54  source /opt/ros/kinetic/setup.bash
+   55  echo "source /opt/ros/kinetic/setup.zsh" >> ~/.zshrc
+   56  source ~/.zshrc
+   57  sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+   58  catkin_init_workspace
+   59  sudo apt install catkin
+   60  source /opt/ros/indigo/setup.bash
+   61  pip install -r requirements.txt --upgrade
+   62  sudo pip install -U catkin_tools
+   63  sudo apt-get install python-catkin-tools
+   64  sudo apt-get install cmake python-catkin-pkg python-empy python-nose libgtest-dev
+   65  sudo sh -c "echo 'Dir::Ignore-Files-Silently:: \"(.save|.distupgrade)$\";' > /etc/apt/apt.conf.d/99ignoresave"
+   66  sudo apt-get install cmake python-catkin-pkg python-empy python-nose libgtest-dev
+   67  sudo mv /etc/apt/sources.list.d/webupd8team-java-raring.list.disable /etc/apt/sources.list.d/webupd8team-java-raring.list
+   68  sudo apt-get install python-catkin-tools
+   69  sudo apt-get update --fix-missing
+   70  sudo apt-get install -f
+   71  sudo dpkg --configure -a
+   72  sudo apt-get clean
+   73  sudo apt-get update
+   74  sudo dpkg --configure -a
+   75  sudo apt-get clean
+   76  sudo apt-get update
+   77  sudo rm /var/lib/apt/lists/lock
+   78  sudo apt-get install python-catkin-tools
+   79  nano /etc/apt/sources.list
+   80  nano /etc/apt/sources.list --гыук
+   81  nano /etc/apt/sources.list --гыук[2~[A
+   82  nano /etc/apt/sources.list --user
+   83  sudo su
+   84  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   85  sudo apt-get install sublime-text
+   86  sudo apt-get install apt-transport-https
+   87  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   88  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   89  sudo apt-get update
+   90  sudo apt-get install sublime-text
+   91  dir
+   92  cd catkin_ws/
+   93  dir
+   94  cd src
+   95  cd scripts/
+   96  chmod +x hello_world_publisher.py
+   97  dir
+   98  cd ..
+   99  chmod +x hello_world_publisher.py
+  100  sudo su
+  101  rostopic list
+  102  sudo add-apt-repository ppa:librecad-dev/librecad-stable
+  103  sudo apt-get update
+  104  sudo apt-get install librecad
+  105  sudo apt-get install blender
+  106  sudo apt-get install meshlab
+  107  roslaunch gazebo_ros empty_world.launch
+  108  sudo apt-get install ros-kinetic-turtlebot-gazebo
+  109  sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
+  110  sudo apt-get install python-rosdep python-wstool ros-indigo-ros
+  111  sudo rosdep init
+  112  roslaunch turtlebot_gazebo turtlebot_world.launch
+  113  eg
+  114  date
+  115  cal;
+  116  cal
+  117  df
+  118  free
+  119  exit
+  120  shutdown
+  121  shutdown -c
+  122  cat ls-output.txt
+  123  ls
+  124  cat ls-output.txt
+  125  cd playground/
+  126  cat ls-output.txt
+  127  cat
+  128  cat > eat_more.txt
+  129  cat eat_more.txt
+  130  cat < eat_more.txt
+  131  ls -l /usr/bin | less
+  132  ls /bin /usr/bin | sort | less
+  133  ls /bin /usr/bin | sort | uniq | less
+  134  ls /bin /usr/bin | sort | uniq -d | less
+  135  wc ls-output.txt
+  136  ls /bin /usr/bin | sort | uniq -d | wc -l
+  137  ls /bin /usr/bin | sort | uniq | grep zip
+  138  head -n ls-output.txt
+  139  head -n 5 ls-output.txt
+  140  tail -n 5 ls-output.txt
+  141  ls /usr/bin |tail -n 5
+  142  tail -f /var/log/messages
+  143  ls /usr/bin | tee ls.txt | grep zip
+  144  echo this is a test
+  145  echo *
+  146  echo D*
+  147  echo *s
+  148  echo [[:upper:]]*
+  149  echo /usr/*/share
+  150  echo ~
+  151  echo ~foo
+  152  echo .*
+  153  ls -d .* | less
+  154  ls -d .[!.]?*
+  155  echo $((2 + 2))
+  156  echo $(($((5**2)) * 3))
+  157  echo Five divinder on two $((5/2))
+  158  echo Front-{A,B,C}-back
+  159  echo number_{1..5}
+  160  echo {Z..A}
+  161  echo a{A{1,2},B{3,4}}b
+  162  mkdir Pics
+  163  cd Pics/
+  164  mkdir {2018..2021}-0{1..9} {2018..2021}-{10..12}
+  165  ls
+  166  echo $USER
+  167  printenv | less
+  168  echo $SUER
+  169  echo $(ls)
+  170  cd ..
+  171  echo $(ls)
+  172  ls -l $(which cp)
+  173  file $(ls /usr/bin/* | grep zip)
+  174  ls -l `which cp`
+  175  echi this is a           test
+  176  echo this is a           test
+  177  echo output $100.00
+  178  ls -l 2 words.txt
+  179  ls -l "2 words.txt"
+  180  ls -l "2_words.txt"
+  181  echo "$USER $((2+2)) $(cal)"
+  182  echo "this is a           test"
+  183  echo $(cal)
+  184  echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
+  185  echo "text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER"
+  186  echo 'text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER'
+  187  mv bad\&filename good_filename
+  188  ls
+  189  set | less
+  190  history | less
+  191  history | less >> history.txt
