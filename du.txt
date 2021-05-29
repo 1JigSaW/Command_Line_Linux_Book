@@ -1,0 +1,10 @@
+496	/usr/share/aclocal
+160	/usr/share/aclocal-1.16
+8	/usr/share/acpi-support
+140	/usr/share/actionlib
+44	/usr/share/actionlib_msgs
+8	/usr/share/adduser
+148	/usr/share/aisleriot
+1552	/usr/share/alsa
+36	/usr/share/alsa-base
+12	/usr/share/ament_index
