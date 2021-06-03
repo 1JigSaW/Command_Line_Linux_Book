@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# test-integer: evaluate the value of an integer.
+
 MIN_VAL=1
 MAX_VAL=100
 INT=50

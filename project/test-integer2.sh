@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# test-integer: evaluate the value of an integer.
+
 INT=-5
 
 if [[ "$INT" =~ ^-?[0-9]+$ ]]; then
