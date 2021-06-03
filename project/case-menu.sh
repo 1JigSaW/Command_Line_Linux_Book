@@ -5,23 +5,23 @@
 clear
 echo "
 Please Select:
-1. Display System Informatio
-2. Display Disk Space
-3. Display Home Space Utilization
-0. Quit
+A. Display System Informatio
+B. Display Disk Space
+C. Display Home Space Utilization
+D. Quit
 "
-read -p "Enter selection [0-3] > "
+read -p "Enter selection [A, B, C or Q] > "
 
 case $REPLY in 
-	0)	echo "Program terminated."
+	q|Q)	echo "Program terminated."
 		exit
 		;;
-	1)	echo "Hostname: $HOSTNAME"
+	a|A)	echo "Hostname: $HOSTNAME"
 		uptime
 		;;
-	2)	df -h
+	b|B)	df -h
 		;;
-	3)	if [[ $(id -u) -eq 0 ]]; then
+	c|C)	if [[ $(id -u) -eq 0 ]]; then
 			echo "Home Space Utilization (All Users)"
 			du -sh /home/*
 		else
